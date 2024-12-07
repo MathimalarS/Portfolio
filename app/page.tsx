@@ -25,16 +25,21 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="absolute bottom-10 z-[20] right-5 flex-col md:hidden">
-          <Link href="/my-skills" className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
-          Learn More</Link>
+    <div className="absolute bottom-10 z-[20] right-5 flex flex-col md:hidden p-4">
+  <Link href="/my-skills" className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px] mb-4">
+    Learn More
+  </Link>
 
-          <Link href="/my-projects" className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
-          My Projects</Link>
+  <Link href="/my-projects" className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px] mb-4">
+    My Projects
+  </Link>
 
-          <Link href="/contact-me" className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
-          Contact me</Link>
-        </div>
+  <Link href="/contact-me" className="rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+    Contact me
+  </Link>
+</div>
+
+
 
         
 
