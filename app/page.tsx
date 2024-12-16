@@ -12,7 +12,7 @@ export default function Home() {
         <p className="text-gray-200 hidden md:block">A Full Stack Developer and UI/UX Designer creating seamless apps and intuitive designs. Let’s build something amazing together!</p>
         <div className="flex-col md:flex-row hidden md:flex gap-5">
           <Link href="/my-skills" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
-          Learn More</Link>
+          My Skills</Link>
 
           <Link href="/my-projects" className="rounded-[20px] group relative bg-transparent px-5 border border-white py-3 text-lg text-white max-w-[200px]">
           <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20"></div>

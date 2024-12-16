@@ -79,37 +79,40 @@ export const SkillData = [
 export const Socials = [
   {
     name: "linkedin",
+    link:"https://www.linkedin.com/in/mathimalar/",
     src: "/linkedin.png",
   },
   {
     name: "github",
+    link:"https://github.com/MathimalarS",
     src: "/github.png",
   },
   {
     name: "leetcode",
+    link:"https://leetcode.com/u/MathimalarS/",
     src: "/leetcode.png",
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Gemini Clone Website",
+    text: " Developed a ReactJS frontend application replicating the Gemini AI interface, showcasing its UI. Deployed the project using GitHub Pages for easy access and user interaction.",
+    src: "/gemini.png",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "To-Do Website",
+    text: "Developed a MERN stack To-Do app to boost student productivity, featuring CRUD operations, secure user authentication with Bcrypt, and input validation using Joi.",
+    src: "/todo.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Ecomart Website",
+    text: "A full-stack eCommerce website with React, Spring Boot, and MySQL, offering product browsing, order management, feedback submission, and secure JWT-based authentication.",
+    src: "/ecomart.jpeg",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Mandeline Website",
+    text: "Developed a dynamic hotel management app using React, featuring real-time room availability, bookings, and reservation tracking with an intuitive interface and enhanced user experience.",
+    src: "/gemini.png",
   },
 ];
 
