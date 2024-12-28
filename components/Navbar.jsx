@@ -15,7 +15,7 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           />
         </div>
-        <h1 className="text-white text-[25px] font-semibold">My Portfolio</h1>
+        <h1 className="text-white text-[25px] font-semibold">DevPortfolio</h1>
       </div>
 
       <div className="flex flex-row gap-5 mb-2">
