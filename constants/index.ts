@@ -80,7 +80,7 @@ export const Socials = [
   {
     name: "linkedin",
     link:"https://www.linkedin.com/in/mathimalar/",
-    src: "/linkedin.png",
+    src: "/linkedin.png"
   },
   {
     name: "github",
@@ -110,9 +110,9 @@ export const Projects = [
     src: "/ecomart.jpeg",
   },
   {
-    title: "Mandeline Website",
+    title: "Bookinn Website",
     text: "Developed a dynamic hotel management app using React, featuring real-time room availability, bookings, and reservation tracking with an intuitive interface and enhanced user experience.",
-    src: "/gemini.png",
+    src: "/hotel.png",
   },
 ];
 
