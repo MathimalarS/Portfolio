@@ -10,8 +10,8 @@ const Navbar = () => {
           <Image
             src="/me.png"
             alt="logo"
-            width={60}
-            height={60}
+            width={40}
+            height={40}
             className="w-full h-full object-contain rounded-full"
           />
         </div>
