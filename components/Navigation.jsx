@@ -8,7 +8,7 @@ import Transition from "./Transition";
 const Navigation = () => {
   const [isRouting, setisRouting] = useState(false);
   const path = usePathname();
-  const [isActive, setisActive] = useState(path);
+  // const [isActive, setisActive] = useState(path);
   const [prevPath, setprevPath] = useState("/");
 
   useEffect(() => {
@@ -16,7 +16,6 @@ const Navigation = () => {
       setisRouting(true);
     }
   }, [path, prevPath]);
-
   useEffect(() => {
     if (isRouting) {
       setprevPath(path);
@@ -25,7 +24,7 @@ const Navigation = () => {
       }, 1200);
       return () => clearTimeout(timeout);
     }
-  }, [isRouting]);
+  }, [isRouting, path]); // Include 'path' here
 
   return (
     <div
